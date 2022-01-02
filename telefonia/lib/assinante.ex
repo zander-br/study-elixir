@@ -20,7 +20,7 @@ defmodule Assinante do
         |> :erlang.term_to_binary()
         |> write(plano)
 
-        {:ok, "Assinante #{nome} cadastrado com sucesso"}
+        {:ok, "Assinante #{nome} cadastrado com sucesso!"}
 
       _assinante ->
         {:error, "Assinante com este número Cadastrado!"}
